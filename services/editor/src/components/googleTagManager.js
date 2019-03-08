@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import gtmParts from 'react-google-tag-manager';
 import { branch, compose, renderNothing } from 'recompose';
-import { withTweekKeys } from '../contexts/Tweek';
+import { withTweekKeys } from 'react-tweek';
 
 class GoogleTagManagerContainer extends React.Component {
   componentDidMount() {

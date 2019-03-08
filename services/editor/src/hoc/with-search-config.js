@@ -1,4 +1,4 @@
-import { withTweekKeys } from '../contexts/Tweek';
+import { withTweekKeys } from 'react-tweek';
 
 export default withTweekKeys(
   {
